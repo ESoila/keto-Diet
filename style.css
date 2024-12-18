@@ -1,0 +1,86 @@
+body {
+    background-color:beige;
+    color: rgb(11, 10, 11);
+}
+.h1 {
+        text-align: center;
+}
+.main-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+.container-dets {
+    border: 1px solid lightsteelblue;
+    border-radius: 10px;
+    background:wheat; 
+    padding: 30px;
+}
+.category-card {
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+.category-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+.recipe-card {
+    width: 200px;
+    border: 1px solid lightsteelblue;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    height: 350px;
+    cursor: pointer;
+     
+}
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.recipe-display {
+    width: 450px;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 15px;
+    text-align:center;
+
+}
+
+.recipe-display img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.hidden {
+    display: none;
+}
+button {
+    border-radius: 5px;
+    background-color: rgb(137, 208, 137);
+    padding: 6px;
+    text-align: center;
+    font-size: medium;
+    color: #fff;
+    border: 1px solid rgb(137, 208, 137);
+
+
+}
+
+  
